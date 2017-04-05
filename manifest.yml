@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Coisas
+  host: Coisas
+  disk_quota: 1024M
+  services:
+  - Coisas-ibm-iot-for-electronics
+  - Coisas-iotf-service
+  - Weather Company Data-le
